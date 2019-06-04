@@ -2,6 +2,7 @@
 module.exports.textoAleatorio = textoAleatorio;
 module.exports.GerarDatas = GerarDatas;
 
+//Metodo para gerar numeros aleatorios
 function numeroAleatorio(tamanho)
 {
     var numeros = '0123456789';
@@ -12,7 +13,7 @@ function numeroAleatorio(tamanho)
     }
     return aleatorio;
 }
-
+//Metodos para gerar string aleatorio
 function textoAleatorio(tamanho)
 {
     var letras = 'ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz';
@@ -23,7 +24,7 @@ function textoAleatorio(tamanho)
     }
     return aleatorio;
 }
-
+//Gerar data atual
 function GerarDatas(){
   let DataAtual;
   //Gerar datas dinamicas
