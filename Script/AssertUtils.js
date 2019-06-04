@@ -16,7 +16,3 @@ function VerificarSeContemPalavra(string,subString){
     Log.Error(subString+" parte do texto não foi encontrado no " + string);
   }
 }
-
-
-
-

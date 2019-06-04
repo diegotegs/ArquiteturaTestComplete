@@ -1,4 +1,7 @@
-﻿module.exports.EscolherProduto = EscolherProduto;
+﻿var GeneralUtils = require("GeneralUtils");
+var PageBase = require("PageBase");
+
+module.exports.EscolherProduto = EscolherProduto;
 module.exports.DigitarQuantidade = DigitarQuantidade;
 module.exports.DigitarData = DigitarData;
 module.exports.DigitarCidade = DigitarCidade;
@@ -11,10 +14,11 @@ module.exports.SelecionarCartao = SelecionarCartao;
 module.exports.ClickOK = ClickOK;
 module.exports.DigitarNumCartao = DigitarNumCartao;
 
-var GeneralUtils = require("GeneralUtils");
-var PageBase = require("PageBase");
+//============================= Mapeamento =============================
 var elementGroup = Aliases.Orders.OrderForm.Group;
 var Botao = Aliases.Orders.OrderForm.ButtonOK;
+//============================= Mapeamento =============================
+
 function EscolherProduto(produto){
   PageBase.ClicarElemento(elementGroup.ProductNames,produto);
 }
@@ -56,7 +60,7 @@ function SelecionarCartao(card){
       break;
   
     default:
-    Log.Message("Não foi selecionado nenhum cartão Válido!")
+      Log.Error("Não foi selecionado nenhum cartão Válido!");
   }  
 }
 function DigitarNumCartao(num){

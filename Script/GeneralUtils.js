@@ -13,6 +13,7 @@ function numeroAleatorio(tamanho)
     }
     return aleatorio;
 }
+
 //Metodos para gerar string aleatorio
 function textoAleatorio(tamanho)
 {
@@ -24,6 +25,7 @@ function textoAleatorio(tamanho)
     }
     return aleatorio;
 }
+
 //Gerar data atual
 function GerarDatas(){
   let DataAtual;
@@ -31,4 +33,3 @@ function GerarDatas(){
   DataAtual = aqDateTime.Today();
   return Project.Variables.dataAtual = DataAtual;
 }
-
