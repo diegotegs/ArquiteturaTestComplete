@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="bases">
+			<child name="PageBase" key="{10534095-8608-497F-9732-FAB254A4897E}" path="PageBase.js" />
+		</folder>
+		<folder name="utils">
+			<child name="AppActionUtils" key="{E82ACA2F-E786-4A6B-A40E-84686A06C663}" path="AppActionUtils.js" />
+			<child name="AssertUtils" key="{E27FA8DA-5993-4F82-80EE-5F30297DB058}" path="AssertUtils.js" />
+			<child name="GeneralUtils" key="{0D820167-C86C-4E94-B303-21F29A450DB4}" path="GeneralUtils.js" />
+		</folder>
+		<folder name="tests">
+			<child name="TestBase" key="{464CFC85-788C-493B-81A3-77EBF19E879F}" path="TestBase.js" />
+		</folder>
+		<folder name="flows">
+			<child name="CadastrarProdutoFlows" key="{0646A06A-02F0-4BE7-B410-0D399A7C0318}" path="CadastrarProdutoFlows.js" />
+		</folder>
+		<folder name="pages">
+			<child name="PrincipalPage" key="{513239D7-ECEA-4A00-BDAF-A9669EBEDF60}" path="PrincipalPage.js" />
+			<child name="FormOrderPage" key="{F10862D0-B4EB-4F4C-B99A-24F36D656B59}" path="FormOrderPage.js" />
+		</folder>
+	</children>
+</Root>
